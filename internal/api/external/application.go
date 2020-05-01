@@ -12,16 +12,16 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	pb "github.com/brocaar/chirpstack-api/go/v3/as/external/api"
-	"github.com/brocaar/chirpstack-application-server/internal/api/external/auth"
-	"github.com/brocaar/chirpstack-application-server/internal/api/helpers"
-	"github.com/brocaar/chirpstack-application-server/internal/codec"
-	"github.com/brocaar/chirpstack-application-server/internal/integration"
-	"github.com/brocaar/chirpstack-application-server/internal/integration/http"
-	"github.com/brocaar/chirpstack-application-server/internal/integration/influxdb"
-	"github.com/brocaar/chirpstack-application-server/internal/integration/mydevices"
-	"github.com/brocaar/chirpstack-application-server/internal/integration/thingsboard"
-	"github.com/brocaar/chirpstack-application-server/internal/storage"
+	pb "github.com/lfgomez/chirpstack-api/go/v3/as/external/api"
+	"github.com/lfgomez/chirpstack-application-server/internal/api/external/auth"
+	"github.com/lfgomez/chirpstack-application-server/internal/api/helpers"
+	"github.com/lfgomez/chirpstack-application-server/internal/codec"
+	"github.com/lfgomez/chirpstack-application-server/internal/integration"
+	"github.com/lfgomez/chirpstack-application-server/internal/integration/http"
+	"github.com/lfgomez/chirpstack-application-server/internal/integration/influxdb"
+	"github.com/lfgomez/chirpstack-application-server/internal/integration/mydevices"
+	"github.com/lfgomez/chirpstack-application-server/internal/integration/thingsboard"
+	"github.com/lfgomez/chirpstack-application-server/internal/storage"
 )
 
 // ApplicationAPI exports the Application related functions.
